@@ -1,0 +1,286 @@
+body {
+    background: 
+        url(fondo2\ \(1\).jpg) top left / cover no-repeat;
+    transition: background 0.5s ease;  /* Agrega una transición de 0.5 segundos con función de aceleración */
+    background-attachment: fixed;  /* Fija el fondo para que se desplace con la página */
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+/*estilo para los subtitulos*/
+#pagina2-contenedor #navbar-example3{
+    font-size: 15px;
+    background-color: #ffffff;
+}
+
+/* Cambia el fondo al hacer scroll */
+body.scrolled {
+    background-position: 
+        top left,
+        center center,
+        bottom right;
+}
+
+/*estilos para el navbar*/
+#pagina2-contenedor .espacio-navbar{
+    justify-content: end;
+    margin-right: 100px;
+}
+
+#pagina2-contenedor .navbar-nav{
+    gap: 30px;
+}
+
+#pagina2-contenedor .navbar-brand{
+    margin-left: 30px;
+}
+
+/*estilo para titulo*/
+#pagina2-contenedor .titulo{
+    text-align: center;
+}
+
+#pagina2-contenedor h1{
+    font-size: 100px;
+    color: #ffffff;
+}
+
+/*estilos para carousel*/
+#pagina2-contenedor .container1{
+    margin: 30px;
+    display: grid;
+}
+
+#pagina2-contenedor .img-carousel {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#pagina2-contenedor .texto{
+    background-color: rgba(0, 0, 0, 0.492);
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+/*estilos para row*/
+#pagina2-contenedor .container2{
+    margin-bottom: 20px;
+}
+
+#pagina2-contenedor .container3{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+#pagina2-contenedor .container3 img{
+    max-width: 100%;
+    height: auto;
+}
+
+#pagina2-contenedor .container3 h4{
+    font-size: 50px;
+}
+
+/*estilos para carousel*/
+
+/* Estilos personalizados para las flechas del carrusel */
+#pagina2-contenedor .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(0, 0, 0); /* Cambia el color de fondo de las flechas a blanco */
+}
+
+/* Cambia el color del texto de las flechas a blanco */
+#pagina2-contenedor .carousel-control-prev, .carousel-control-next {
+    color: white;
+}
+
+
+/*estilos para footer*/
+#pagina2-contenedor footer{
+    bottom: 0px;
+    background-color: #d1ae00;
+    width: 100%;
+    min-width: 300px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pagina2-contenedor .footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    width: 100%;
+    padding: 10px;
+}
+
+#pagina2-contenedor .footer-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 4;
+    gap: 48px 16px;
+}
+
+#pagina2-contenedor .footer-columns{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 8px 36px 8px;
+}
+
+
+
+#pagina2-contenedor section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+}
+
+#pagina2-contenedor .espacio{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#pagina2-contenedor p {
+    line-height: 1.5; /* Ajusta la altura de línea según tus preferencias */
+    margin-bottom: 15px; /* Añade un margen inferior entre párrafos */
+}
+
+#pagina2-contenedor section ul {
+    list-style: none;
+    padding: 0;
+}
+
+#pagina2-contenedor .footer-columns ul{
+    display: flex;
+    gap: 12px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+#pagina2-contenedor .footer-columns ul a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#pagina2-contenedor .footer-columns ul a:hover{
+    text-decoration: underline;
+}
+
+#pagina2-contenedorv .footer-columns h3{
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1rem;
+}
+
+#pagina2-contenedor .footer-logo{
+    display: flex;
+    gap: 16px;
+    flex-grow: 1;
+    max-width: 160px;
+    margin-bottom: 48px;
+    margin-right: 10px;
+}
+
+#pagina2-contenedor .footer-logo svg{
+    stroke: #ffffff;
+    stroke-width: 8px;
+    width: 100px; 
+    height: px;
+}
+
+#pagina2-contenedor .footer-bottom{
+    margin-top: 48px;
+    display: flex;
+    align-items: end;
+    width: 100%;
+    gap: 16px;
+    padding: 16px 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+#pagina2-contenedor .footer-bottom > small{
+    font-size: 16px;
+    margin: 0 4px;
+}
+
+#pagina2-contenedor .footer-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#pagina2-contenedor .footer-description h3{
+    margin-bottom: 8px;
+}
+
+#pagina2-contenedor .social-wrapper{
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    padding: 8px 0px;
+    justify-content: end;
+    margin-bottom: 16px;
+    align-items: center;
+    color: #ffffff;
+}
+
+#pagina2-contenedor .social-links{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#pagina2-contenedor .social-links img{
+    width: 24px;
+    height: 24px;
+    transition: all 0.2s ease-in-out;
+}
+
+#pagina2-contenedor .social-links img:hover{
+    transform: scale(1.1);
+}
+
+#pagina2-contenedor .social-links ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style-type: none;
+}
+
+/* telefono*/
+
+@media (min-width: 926px){
+    #pagina2-contenedor .footer-logo{
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 800px){
+    #pagina2-contenedor .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 16px 8px 32px 8px;
+    }
+
+    #pagina2-contenedor .social-wrapper{
+        justify-content: center;
+    }
+}
