@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    
     // Datos de ejemplo, deberías obtener estos datos desde tu base de datos o una API.
     const productos = [
         { nombre: "Hilo encerado", imagen: "hiloEncerado.png", especificaciones: ["50 gr", "100 gr", "250 gr", "460 gr", "1 kg"] },
