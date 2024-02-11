@@ -43,6 +43,7 @@ body.scrolled {
 }
 
 #pagina1-contenedor .fondo{
+    margin-top: 5px;
     box-sizing: border-box;
     height: auto;
 }
