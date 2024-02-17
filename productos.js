@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
         { nombre: "Hilo encerado", imagen: "hiloEncerado.png", especificaciones: ["50 gr", "100 gr", "250 gr", "460 gr", "1 kg"] },
         { nombre: "Hilo poliéster", imagen: "hiloPoliester.png", especificaciones: ["1000/2", "1000/3", "1000/4"] },
         { nombre: "Hilo algodón", imagen: "hiloAlgodon.png", especificaciones: ["#5 450 gr", "#6 250gr"] },
-        { nombre: "Hilo lubricado", imagen: "hiloLubricado.png", especificaciones: ["500 mts"] },
-        { nombre: "Hilo macramé tipo croche", imagen: "hiloMacrame.png", especificaciones: ["#2 175 mts", "#5 175 mts", "#6 250 gr", "#18 250 gr"] },
+        { nombre: "Hilo lubricado", imagen: "hiloLubricado.png", especificaciones: ["#1.5 500 mts"] },
+        { nombre: "Hilo macramé tipo croche", imagen: "hiloMacrame.png", especificaciones: ["#2 275 mts", "#5 275 mts", "#6 250 gr", "#18 250 gr"] },
         { nombre: "Hilo pespunte", imagen: "hiloPespunte.png", especificaciones: ["#8 1200 m", "#30 2000 m", "#0 600 m", "#00 400 m"] },
-        { nombre: "Hilo semiencerado tipo italiano", imagen: "hiloSemiencerado.png", especificaciones: ["500 mts"] },
-        {nombre: "Hilo semiencerado de macrame", imagen: "hiloSemiencerado2.png", especificaciones: ["250 gr", "100 gr", "50 gr"]}
+        { nombre: "Hilo semiencerado tipo italiano", imagen: "hiloSemiencerado.png", especificaciones: ["#1.2 500 mts"] },
+        {nombre: "Hilo semiencerado de macrame", imagen: "hiloSemiencerado2.png", especificaciones: ["#4 250 gr", "#4 100 gr", "#4 50 gr"]}
     ];
 
     const productosContainer = document.getElementById("productos");
