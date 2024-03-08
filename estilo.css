@@ -1,6 +1,6 @@
 
 body {
-    background-color: darkgray;
+    background-color: darkgray !important;
 }
 
 body, html{
@@ -95,6 +95,10 @@ body.scrolled {
 #pagina1-contenedor .linea{
     background-color: #ffffff;
     margin-bottom: 20px;
+}
+
+#pagina1-contenedor .col{
+    margin-top: 20px;
 }
 
 /* estilo para acerca de...*/
