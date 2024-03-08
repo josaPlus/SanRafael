@@ -1,14 +1,13 @@
 
 body {
-    background: 
-        url(fondo1\ \(1\).jpg) top left / cover no-repeat;
-    background-attachment: fixed;  /* Fija el fondo para que se desplace con la página */
+    background-color: darkgray;
 }
 
 body, html{
     margin: 0;
     padding: 0;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    background-color: darkgray; 
 }
 
 /* Cambia el fondo al hacer scroll */
