@@ -1,8 +1,5 @@
 body {
-    background: 
-        url(fondo2\ \(1\).jpg) top left / cover no-repeat;
-    transition: background 0.5s ease;  /* Agrega una transición de 0.5 segundos con función de aceleración */
-    background-attachment: fixed;  /* Fija el fondo para que se desplace con la página */
+    background-color: rgb(172, 171, 171) !important;
 }
 
 body, html{
