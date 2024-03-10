@@ -1,9 +1,8 @@
 function whatsapp() {
     var nombre = document.querySelector('.selec1[name="nombre"]').value;
-    var telefono = document.querySelector('.selec1[name="telefono"]').value;
     var mensaje = document.querySelector('.selec1[name="mensaje"]').value;
 
-    var empresa = "+52 477 865 7124"; // Número de la fábrica
+    var empresa = "+52 1 477 432 5057"; // Número de la fábrica
     var mensajeCapitalizado = capitalizarPrimeraLetra(mensaje);
 
     var informacion = encodeURIComponent("Mi nombre es " + nombre + ". " + mensajeCapitalizado);
