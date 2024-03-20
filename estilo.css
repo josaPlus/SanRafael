@@ -204,6 +204,7 @@ body.scrolled {
 #pagina1-contenedor .espacio{
     margin-right: 10px;
     margin-left: 10px;
+    text-align: left;
 }
 
 #pagina1-contenedor p {

@@ -1,13 +1,13 @@
 function whatsapp() {
-    var nombre = document.querySelector('.selec1[name="nombre"]').value;
-    var mensaje = document.querySelector('.selec1[name="mensaje"]').value;
+    let nombre = document.querySelector('.selec1[name="nombre"]').value;
+    let mensaje = document.querySelector('.selec1[name="mensaje"]').value;
 
-    var empresa = "+52 1 477 432 5057"; // Número de la fábrica
-    var mensajeCapitalizado = capitalizarPrimeraLetra(mensaje);
+    let empresa = "+52 1 477 432 5057"; // Número de la fábrica
+    let mensajeCapitalizado = capitalizarPrimeraLetra(mensaje);
 
-    var informacion = encodeURIComponent("Mi nombre es " + nombre + ". " + mensajeCapitalizado);
+    let informacion = encodeURIComponent("Mi nombre es " + nombre + ". " + mensajeCapitalizado);
 
-    var enlace = "https://api.whatsapp.com/send?phone=" + empresa + "&text=" + informacion;
+    let enlace = "https://api.whatsapp.com/send?phone=" + empresa + "&text=" + informacion;
     window.open(enlace, "_blank");
 }
 
