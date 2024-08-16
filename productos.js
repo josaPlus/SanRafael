@@ -14,8 +14,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const productosContainer = document.getElementById("productos");
 
+    // Recorrer el arreglo de productos y por cada producto crear un elemento HTML
     productos.forEach(producto => {
         const productoElement = document.createElement("div");
+        // classList es una propiedad que permite acceder a la lista de clases de un elemento
+        // agregar una clase a un elemento es tan sencillo como llamar al método add y pasarle el nombre de la clase
         productoElement.classList.add("producto");
 
         const imagenElement = document.createElement("img");
